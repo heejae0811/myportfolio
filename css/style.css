@@ -8,7 +8,6 @@ header>h1{position:absolute; left:50%; top:0; width:200px; margin-left:-600px; b
 header>h1>a{display:block; height:70px; text-indent:-9999px;}
 
 #gnb{position:absolute; left:50%; top:0; margin-left:100px;}
-#gnb>ul{}
 #gnb>ul>li{float:left; padding:0 20px;}
 
 #gnb>ul>li>a{display:block; height:70px; color:#fff; font-size:20px; font-weight:800; line-height:70px; text-align:center;}
@@ -116,6 +115,7 @@ section>article{width:100%;}
 #portfolio>.grid>.item:hover>.frame{display:block;}
 #portfolio>.grid>.item>.frame>h2{margin-top:70px; margin-bottom:15px; color:#fff; font-size:30px; font-weight:800; text-align:center;}
 #portfolio>.grid>.item>.frame>p{margin-bottom:15px; color:#fff; font-size:17px; text-align:center;}
+#portfolio>.grid>.item:first-child>.frame>.text{line-height:30px;}
 #portfolio>.grid>.item>.frame>span{display:block; width:150px; height:50px; margin:20px auto 0; border:1px solid #fff;}
 #portfolio>.grid>.item>.frame>span>a{display:block; height:50px; color:#fff; font-size:17px; line-height:50px; text-align:center;}
 #portfolio>.grid>.item>.frame>span:hover>a{background-color:rgba(72,115,91,0.5);}
